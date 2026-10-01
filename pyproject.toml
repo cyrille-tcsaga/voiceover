@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "voiceover"
+version = "0.1.0"
+description = "Segment-by-segment voice-over generation for ad videos using Gemini Text-to-Speech."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=2.26",
+    "typer>=0.12",
+    "rich>=13.7",
+    "pydantic>=2.6",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "soundfile>=0.12",
+    "pyloudnorm>=0.1.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+voiceover = "voiceover.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/voiceover"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

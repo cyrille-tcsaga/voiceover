@@ -1,0 +1,48 @@
+# Voice-over script for the HomeFinder promo video (about 45 s, 16:9).
+# Audience: people looking for a home in Cameroon (main), with a short nod to agents in V08.
+# Target pace: 2.3 to 2.8 words per second. Check report.json after generation.
+
+project: homefinder-promo
+voice: Charon
+language: fr-FR
+style: >
+  Voix masculine chaleureuse et rassurante, débit de publicité radio dynamique
+  mais clair, léger sourire dans la voix. Français standard, articulation nette.
+
+pronunciations:
+  HomeFinder: "Home Finder"
+
+segments:
+  - id: V01
+    text: "Des semaines de recherche, des démarcheurs partout, et des logements qui ne ressemblent jamais aux photos..."
+    style: "Ton de lassitude compréhensive, comme quelqu'un qui a vécu la situation. Pas triste."
+
+  - id: V02
+    text: "Et si vous trouviez votre logement en quelques clics ? Voici HomeFinder."
+    style: "Question posée avec curiosité, puis le nom annoncé avec fierté et énergie."
+
+  - id: V03
+    text: "L'application immobilière pensée pour le Cameroun."
+
+  - id: V04
+    text: "Maison, appartement, studio, bureau ou magasin : filtrez par quartier, par prix et par taille."
+    style: "Énumération rythmée, chaque type de bien bien détaché."
+
+  - id: V05
+    text: "Chaque annonce est vérifiée par notre équipe. Vraies photos, vraies informations."
+    style: "Ton de confiance, posé, appuyer légèrement sur les deux mots vraies."
+
+  - id: V06
+    text: "Repérez les biens près de vous sur la carte, et visitez-les en vidéo avant de vous déplacer."
+
+  - id: V07
+    text: "Un bien vous plaît ? Contactez directement le propriétaire ou l'agent."
+    style: "Ton complice et simple."
+
+  - id: V08
+    text: "Vous êtes agent ? Publiez vos annonces et recevez de vrais clients."
+    style: "Changement d'interlocuteur, ton professionnel et direct."
+
+  - id: V09
+    text: "HomeFinder. Téléchargez l'application gratuitement sur Google Play."
+    style: "Conclusion énergique et claire, finir sur une note positive."

@@ -1,0 +1,29 @@
+project: autokool-promo
+voice: Charon            # prebuilt voice name (see `voiceover voices`)
+language: fr-FR
+style: >
+  Voix masculine chaleureuse et assurée, débit de publicité radio dynamique
+  mais clair, léger sourire dans la voix. Français standard.
+pronunciations:          # replacements applied before sending text to the API
+  AutoKool: "Auto Koul"
+  FCFA: "francs CFA"
+segments:
+  - id: V01
+    text: "Cahiers perdus, élèves qui ne paient pas, examens oubliés... Gérer une auto-école, c'est épuisant."
+    style: "Ton de frustration compréhensive, pas triste."
+  - id: V02
+    text: "Et si tout tenait dans une seule application ? Voici AutoKool."
+  - id: V03
+    text: "Conçue pour les auto-écoles du Cameroun."
+  - id: V04
+    text: "Vos élèves paient par MTN MoMo ou Orange Money. Confirmation immédiate, facture automatique."
+  - id: V05
+    text: "Chaque élève a son dossier : code, conduite, paiements."
+  - id: V06
+    text: "Leçons et examens planifiés sans conflits, avec rappels automatiques."
+  - id: V07
+    text: "D'un coup d'œil, suivez vos revenus, vos inscriptions et votre réussite."
+  - id: V08
+    text: "Moniteurs, véhicules : tout au même endroit."
+  - id: V09
+    text: "AutoKool. Dès quinze mille francs CFA par mois. Trente jours d'essai gratuit."
