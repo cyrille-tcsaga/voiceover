@@ -1,5 +1,13 @@
 # voiceover
 
+```
+            _
+__   _____ (_) ___ ___  _____   _____ _ __
+\ \ / / _ \| |/ __/ _ \/ _ \ \ / / _ \ '__|
+ \ V / (_) | | (_|  __/ (_) \ V /  __/ |
+  \_/ \___/|_|\___\___|\___/ \_/ \___|_|
+```
+
 Outil en ligne de commande qui génère des voix off segment par segment avec l'API
 **Gemini Text-to-Speech**, pour les vidéos motion design. Chaque segment du script
 (V01, V02, …) devient un fichier WAV séparé. Tous utilisent la même voix et les
